@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    <style>
+        .wrapper {
+            display: grid;
+            grid-template-columns: 20% 70%;
+            margin: 10px;
+        }
+
+        .optional-content {
+            text-align: center;
+            padding: 50px;
+            background-color: grey;
+            border: 2px solid #000;
+            margin: 10px;
+        }
+    </style>
+
+    <body>
+        <div>
+            <div style="text-align: center; background-color: grey; height: 100px; padding-top: 25px;">
+                <h1 style="font-size: 48; font-weight: bold;">E-PORTFOLIO</h1>
+            </div>
+            <div class="wrapper">
+                <div>
+                    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAIgAiAMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAAAQQFBgcDAgj/xAA7EAABAwIDBAYIBQMFAAAAAAABAAIDBBEFEiEGMUFREyJhcYGhBxQjMpGxwdFCUmLh8BUWUyRyc4Lx/8QAGgEAAgMBAQAAAAAAAAAAAAAAAwQBAgUABv/EACQRAAICAQQCAgMBAAAAAAAAAAABAhEDBBIhMSJRBTMTMkEk/9oADAMBAAIRAxEAPwB+hCEme7BCEtlFnCJbJUKLOBISBvKicdxyLC2BjAJKhw6rL7u0qrSbQ1pa90rwXu3BotZEjjlJWJZ9fixPa+WX7Oy9swuvYWTyVk75c873l17gklSVBjNbE4dFVyj9Eji4HuurSwNLsVj8rFvmJo6FX6DaK5DK+LIf8jBp4hWBj2vYHscHNIuCOKXknHs0MWfHlVwYtkJbapQEOwliIAXpChs4QBC9WQos4b2SoS2TFlxEWS2SqrZAlkwxrE2YXRumIzSu6sTPzH7J+SGtLnEBoFyTwWfYnX/1TE+ke52QdWGMcB296vjjuYlrdR+GHHbOEVJVVT5Kmoa50rusXOt90xqYZIiC+N1ieVlqGzOypfTsnrR1HC4jOoI7VZf7VwyZoEtOwtA3WR3mp8GBsvlsxGgEc5Eb76/zx8u9OHYf6vKNM0LiBe+5aVjWwFG5jn0DOidyHFVaWmliY+GpZ7SPR4OmYfdVeW+i0cXBHtp3QsHWzRO3HfbvTzCcRdhtQIZXZqR7ra74zzHYlpMgBhcbsOl/kU0rI/ZuDhq02IPLmqOnww0JvG90ey8CxAI3L1ZQmy1camjNNKby0+ne3h9vgpxKSTTo3seRZIqSEslQlsqWXEQvSFFnDZKlshMNlrEASpUWUWRZEbT1JgwqRrd8mnhxUHsHhwrMQMjmg9FZz3W4ncAnW20tomxg7mXPif2Tr0WyMbFVNe9rbOBJcbcE1BViswdZPfqK9Gm0w9k0CyexDRNKV0Tm9SVj/wDa4FO4yNUMWkdCLixVX2rwVs8RqIRlmYLg81K4rj9Dhbmxy9JLM42bFCwucU3bXVldETNSQUkbm9Vk0t3nvA0CrLotj3JmS1PsZXZRb8VuXMeBuvEs2a773Dhr2J3jkMtLiU0c7WDrXGR2YZXdveoNkhGZjj7rrIsFaOnwyRwer9TxeGQmzHnI/uP8BV+A8VlrzeO/L5j/ANWj4RVCtw6nnvcuYM3eNCgamNUzR+PydwHaVLZCUs0rEslSpFFkWcLJbJUJhsuCEtkqq2QUjbU3nP8AxgeajdlsQpaNla+qomVVmtcGvFxbUHT4KR2ucJKmVpPAfzyTb0d07arHJqZ/uyU7gfiFow+rk85nf+hssFBiNKx1PUR4K6ime1r4+hBAIJsDp9lo2A1rqxsrZWZXx2uL3umVDg8dLFE1zGyiEWj6RocWjsJ3J5gzTnq5rWzusLDlogz2uqO5p2c66KcRTVFNEHSA2aAPMkC6qGL0O09TVyQNrWCIXMboY9+mgsXX5Xv2rQYCyRzmHhou0dMyM3aAOei6PC6KyfPZkeOYLV0NHTzYhL0kxuyQhthru81UqwZKgm1r3utn9INOybZ6oIsHMAcD3FY7iAzZzv1vfu0KnE+S0/KKZybqdd2+3grdsPP/AKaopHHWN+Zvcf55qpwi9rDUC6mdk5hDi7W8JGWXZ43BovpZ7MqZerJbIG5CyrN2wQhCizjjZKiyWyYssIkeQxhceAXtR+M1YpaR7+LR1e13BcrborkmoRtlLx+QTV0xBvkaGk9o3+aabLYgMK2lpZ72Y85H9zv3svDnZ2SXNyRvKc4JsdjG0E3SwQmnos2tXMLNAHFo3u8NO1a0UlGmeanJue5G5Us7Z4gdMrgoygr6tkk9BBG0ubctkINtTuP7KLwGrEImoPWRPJSu6N77WzdtuCfPxeWjrHRU+Hz1BHVe5jfuQknd0N7CWooK8ztNS2MZbkuYT1lIF5YCCVCxYzicjwThJZDuGeVod8ypIPe9gMrMjiNQDeynoDKLvyILbGUvwSrB/wAZWTPbnEjSPdflPjqFq21z2RYJUuNrlpAWYysDKmqA7Ha94+67Ewk0tqGEXUDb8DY9qd4c4wYlC5ps5r7Lw5uU7tM1xfuXLpDHPG8cbOvy3I75VAVw7NOZZzQRuIuvdk2w6US0cTxrdqdWWLLhtG/F3FMRCWyFSyTglslSpmwliW5qlbWV4kkEDToNSrZiU/q1FLLcAgWbfmdAsyxKYyPe43u48eSa0kLluMz5DNUdiLZsFso/Gpm1tfG4Ycx1w0ixnI4D9PM+C0vFp6CkiZT1DJngjKyGlY4loA5MFwLKG9HFcZ9jowwDpYWOYP8ArcD6KZx/EThGAz4pT0xmDI+ke1hGYjnry3lOSMiLp2UDF8d2VwaSD+iNcKuSoHrDs7yWt/FnzcfNXCihZWAVNPKQ97RYtO8cFXaqLAvSDhZqmUxgrx1PWMuV7HcnW94dmqrex2N1+Czz4VUDpG08paAXWLLHgeXGyFOCkrX8GoSmuPZrkGE2s+pqHykcDoAutUY4Yi5zgGtCg6fHZ6loAYWAjfe654m6aeP2ry4W0bwQm1/Dtsr8mU3bzaD1t7KGmuWZrudfQqHkb0k1Y48YzbyP0XvHqNwrGutxXB78ssuu8HXwRYpKKo6XbOUh10PAHyv9FwnvksN4uPqF7nOWXKOVlz97OONs3yV0DZe9lp+lw1rb3LbKZVT2KlF3RjTMzcrbbTRY+pW3I0bGmleJCWQvSEuHs4WSoQmLLkLtY4jDmt/PJbyKz2uuZHX4fdaRtJAJ8NILg0tcCCTbs+qzivBDybg3PDitLRvwMX5BP8ll59E9c6H1ynJ6gcx9uWbqn5BaVRZJqeSlnY17Bdhadzm9vgsS2MxmLB8Rcak2p52dFK78gJ6rvA/Na3S1QFQxziLnQ23W5pibqQklcSJiwH+3cUkbhcMhpap2cRtItG7iNeHEctVTcbpzDtzUsyZHTRskIPdY/JbFUxipgsHWcNWnkeapG0+EmetosTjaTNTuMc1uLD2dh+aG1Tb9hYZNyS9HbDqUZWOI1bqpaVoMNuxeKFnsQukzSW2QttF3O2UvaCBpe19txVUqHBzSb6vDteZOgVu2ve2Gn1PWdpYKmSOyt1OrS1gHaBcokCZM8TvzSvd2hIHe3HC7T9BZcy7New3kfzyXOVxaRwP7/sjUAstGxrj6/GP0uBHgVebKjbBgyYhO6xIjjvpzKvSxdc6y0a2j+uwQlshJ2NWN92/dxRSRvrTePqxcHW1d3JlisuSGOMGxmkDL9m8+Qt4qyYYGiJoAGgWjgxqS3MV1Wdx8YnKXB6d9O6OWMOzDUu3rP9pdlJoo31FCwyBh9pGB7v6h5LVndYb0zmh9p0gFzazm8wnF4vgzd98SPn90bmucxzSHN0c0jWyvewmNPnpzhlQ720A9g48WDcO8bu4jkp7aPZ6iq4vWGQBk1t9rHxWfNifhmIQ1DAWvgkv3jiPhdG371RVQ28o3XDKkSwNdxI1XLEqa7XSsbmBHXbzH3THZ17nxki/RuPVPMXUvVyZad1gTou7iD/WZDUE7HxDQ77XtvTyaNvRZyLgC+iYYQGS4ZHYWzEu1HMleq6aSCjkblz6EAczwCGEq2ZntNinr1S+T8LScrb7hwVfqJMpaL+40nvJU1WYXNLWxw6l0k5jJtvy+8fiU1/t+rmqhGGEMczPmO5XhSLTTfRHUXSTSWaCfonwwudzw6SJ7ow67g02J7lJ4bsliha4wSxRjORqCb2Km6TZLGmu9piMIHbGT9VaUueGVilXJIbOQYdT0YbQXzEXkziz79ql1GxbM1rC10tVG882sykeakBh9bA3qyiQDg8fXesnPpJtuUXZoY9TBKmekLj6x0bstSwwk8SbtPihISxzi6aGozi1aZC7RPyTYceHSuHkrNhMl4WlIha+D60J6n92SuewSE3QhHEWNKuPpGEaWVJ2iwppGcsFr625IQoumEgaFheRtFCI2hrWtAAHckxSUMpnPJsBqSlQmIvgXkvIhsEqM9GzhbS3JP5i1wu4XshCEFfZCOpImzsePwl+XTi4gn5L3K1scLpA0EtbZo5ngPihC4sztTRup42MBvYWJ5nmpCGQk6lCFINjq5LfkuLnvQhVZCGlXAJ4i2RgN99whCFAdSdH/2Q=="
+                        alt="myPicture" style="border: 2px solid; height: 250px; width: 300;" />
+                </div>
+                <div>
+                    <div style="margin-bottom: 50px;">
+                        <h1>About me</h1>
+                        <p>My Name</p>
+                        <p>My course and year level</p>
+                    </div>
+                    <p><span style="font-weight: bold;">Motto:</span> Tabang kol!</p>
+                </div>
+            </div>
+            <div class="optional-content">
+                <h1>Optional Content</h1>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget nullam non nisi est sit amet facilisis magna etiam.
+                Ornare
+                aenean euismod elementum nisi. Blandit massa enim nec dui nunc. Lorem ipsum dolor sit amet. Erat nam at lectus urna duis convallis convallis. Sapien pellentesque habitant morbi
+                tristique
+                senectus et. Sit amet volutpat consequat mauris nunc. Viverra nam libero justo laoreet sit amet cursus sit amet. Sed risus ultricies tristique nulla aliquet enim tortor.
+
+                Quisque non tellus orci ac auctor augue mauris augue neque. Mauris rhoncus aenean vel elit scelerisque. Non quam lacus suspendisse faucibus interdum posuere lorem. Adipiscing tristique
+                risus
+                nec feugiat in fermentum posuere urna nec. In ante metus dictum at tempor commodo. Enim sed faucibus turpis in. Nibh cras pulvinar mattis nunc sed blandit libero. Cras sed felis eget
+                velit.
+                Odio euismod lacinia at quis risus. At urna condimentum mattis pellentesque. Nunc sed id semper risus in hendrerit gravida. Varius vel pharetra vel turpis nunc eget lorem dolor. Cras
+                semper
+                auctor neque vitae tempus quam pellentesque nec.
+            </div>
+        </div>
+    </body>
+
+</html>
